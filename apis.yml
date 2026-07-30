@@ -1,9 +1,30 @@
 aid: luel
 name: Luel
-description: Luel is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: >-
+  Luel is a two-sided marketplace and multi-modal data lab for AI training data,
+  connecting companies that need high-quality, rights-cleared datasets with
+  verified contributors who supply and license on-demand video, audio, and image
+  data. Contributors can earn money by submitting media from their own devices
+  (for example, footage from their camera roll) or by completing requested data
+  tasks, while buyers purchase premium, curated, rights-cleared multimodal
+  datasets from the Luel catalog. Positioned as "the frontier of data," Luel
+  powers the foundations of machine perception through a proprietary, continuous
+  data engine. The company is backed by Y Combinator, General Catalyst, and
+  Lightspeed Venture Partners. Luel does not currently publish a public API,
+  SDK, or developer documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/luel/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.luel.ai/luel-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,12 +35,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- AI
+- Machine Learning
+- Training Data
+- Data Marketplace
+- Multimodal
+- Video
+- Audio
+- Data Licensing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/luel-domain-security.yml
+- type: Website
+  url: https://www.luel.ai/
+- type: SignUp
+  url: https://www.luel.ai/signup
+- type: Blog
+  url: https://www.luel.ai/resources/blog
+- type: TermsOfService
+  url: https://www.luel.ai/terms
+- type: PrivacyPolicy
+  url: https://www.luel.ai/privacy
+- type: Support
+  url: https://discord.com/invite/luel
+- type: LinkedIn
+  url: https://www.linkedin.com/company/luel
+- type: Twitter
+  url: https://x.com/luelcompany
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
